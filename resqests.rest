@@ -1,2 +1,2 @@
-Get http://localhost:5000/todos/1
+GET  http://localhost:5000/todos
 
