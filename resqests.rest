@@ -1,2 +1,20 @@
 GET  http://localhost:5000/todos
 
+###
+
+POST http://localhost:5000/todos/new
+Content-Type: application/json
+
+{   
+    "text": "buy plastic",
+    "description": "Milk, Cheese, Pizza, Fruit, Tylenol",
+    "done": false
+}
+
+###
+
+DELETE  http://localhost:5000/todos/delete/6433d7c5697625db5b641262
+
+###
+
+ PUT  http://localhost:5000/todos/complete/6433d8a93f46b03435c3c1f4
