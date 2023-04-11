@@ -6,7 +6,7 @@ POST http://localhost:5000/todos/new
 Content-Type: application/json
 
 {   
-    "text": "buy plastic",
+    "text": "buy groceries",
     "description": "Milk, Cheese, Pizza, Fruit, Tylenol",
     "done": false
 }
