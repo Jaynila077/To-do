@@ -104,3 +104,4 @@ dist
 .tern-port
 
 requests.rest
+.vscode
